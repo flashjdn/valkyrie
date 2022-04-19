@@ -1,1 +1,81 @@
-/* Copy and paste your CSS from CodePen into here */
+#img-div{
+      text-align: center;
+      background: #fad9e6;
+  width: 90%;
+  padding: 15px;
+  border-radius: 7px;
+  margin: 0 auto;
+  object-fit: contain;
+  
+}
+#image{
+   text-align: center;
+   object-fit: contain;
+  
+}
+#img-caption{
+  margin: 10px 0 0px 0;
+  
+}
+#subtitle{
+  text-align: center;
+  padding:
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+#main {
+  background: #ebb9cd;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: arial;
+}
+h1 {
+  text-align: center;
+  font-family: tahoma;
+  font-size: 44px;
+  color: #ff4
+}   
+h2 {
+  font-size: 16px;
+  font-family: monaco;
+  margin-top: -20px;
+  color: #333;
+}
+h3 {
+  font-size: 20px;
+  font-family: monaco;
+  text-align: center;
+  padding: 2px;
+  color: #fff
+}
+p{
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper object,
+.video-wrapper embed,
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+li {
+  padding: 10px;
+  text-align: justify;
+  margin-right: 20px;
+}
